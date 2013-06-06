@@ -18,6 +18,12 @@
 		BD53FDCA1760E68F0037BD9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD53FDC91760E68F0037BD9B /* Default-568h@2x.png */; };
 		BD53FDCD1760E68F0037BD9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD53FDCB1760E68F0037BD9B /* MainStoryboard.storyboard */; };
 		BD53FDD01760E68F0037BD9B /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53FDCF1760E68F0037BD9B /* SRViewController.m */; };
+		BD53FDD71760E6CF0037BD9B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD53FDD61760E6CF0037BD9B /* libsqlite3.dylib */; };
+		BDB54EE91761110600324281 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB54EDF1761110600324281 /* FMDatabase.m */; };
+		BDB54EEA1761110600324281 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB54EE11761110600324281 /* FMDatabaseAdditions.m */; };
+		BDB54EEB1761110600324281 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB54EE31761110600324281 /* FMDatabasePool.m */; };
+		BDB54EEC1761110600324281 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB54EE51761110600324281 /* FMDatabaseQueue.m */; };
+		BDB54EEE1761110600324281 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB54EE81761110600324281 /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,17 @@
 		BD53FDCC1760E68F0037BD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BD53FDCE1760E68F0037BD9B /* SRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRViewController.h; sourceTree = "<group>"; };
 		BD53FDCF1760E68F0037BD9B /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRViewController.m; sourceTree = "<group>"; };
+		BD53FDD61760E6CF0037BD9B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BDB54EDE1761110600324281 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BDB54EDF1761110600324281 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BDB54EE01761110600324281 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BDB54EE11761110600324281 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BDB54EE21761110600324281 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BDB54EE31761110600324281 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BDB54EE41761110600324281 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BDB54EE51761110600324281 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BDB54EE71761110600324281 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BDB54EE81761110600324281 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD53FDD71760E6CF0037BD9B /* libsqlite3.dylib in Frameworks */,
 				BD53FDB41760E68E0037BD9B /* UIKit.framework in Frameworks */,
 				BD53FDB61760E68F0037BD9B /* Foundation.framework in Frameworks */,
 				BD53FDB81760E68F0037BD9B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +74,7 @@
 		BD53FDA71760E68E0037BD9B = {
 			isa = PBXGroup;
 			children = (
+				BD53FDD61760E6CF0037BD9B /* libsqlite3.dylib */,
 				BD53FDB91760E68F0037BD9B /* SandBox-sqlite */,
 				BD53FDB21760E68E0037BD9B /* Frameworks */,
 				BD53FDB11760E68E0037BD9B /* Products */,
@@ -83,6 +102,7 @@
 		BD53FDB91760E68F0037BD9B /* SandBox-sqlite */ = {
 			isa = PBXGroup;
 			children = (
+				BDB54EDD1761110600324281 /* src */,
 				BD53FDC21760E68F0037BD9B /* SRAppDelegate.h */,
 				BD53FDC31760E68F0037BD9B /* SRAppDelegate.m */,
 				BD53FDCB1760E68F0037BD9B /* MainStoryboard.storyboard */,
@@ -105,6 +125,23 @@
 				BD53FDC91760E68F0037BD9B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB54EDD1761110600324281 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BDB54EDE1761110600324281 /* FMDatabase.h */,
+				BDB54EDF1761110600324281 /* FMDatabase.m */,
+				BDB54EE01761110600324281 /* FMDatabaseAdditions.h */,
+				BDB54EE11761110600324281 /* FMDatabaseAdditions.m */,
+				BDB54EE21761110600324281 /* FMDatabasePool.h */,
+				BDB54EE31761110600324281 /* FMDatabasePool.m */,
+				BDB54EE41761110600324281 /* FMDatabaseQueue.h */,
+				BDB54EE51761110600324281 /* FMDatabaseQueue.m */,
+				BDB54EE71761110600324281 /* FMResultSet.h */,
+				BDB54EE81761110600324281 /* FMResultSet.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +214,11 @@
 				BD53FDC01760E68F0037BD9B /* main.m in Sources */,
 				BD53FDC41760E68F0037BD9B /* SRAppDelegate.m in Sources */,
 				BD53FDD01760E68F0037BD9B /* SRViewController.m in Sources */,
+				BDB54EE91761110600324281 /* FMDatabase.m in Sources */,
+				BDB54EEA1761110600324281 /* FMDatabaseAdditions.m in Sources */,
+				BDB54EEB1761110600324281 /* FMDatabasePool.m in Sources */,
+				BDB54EEC1761110600324281 /* FMDatabaseQueue.m in Sources */,
+				BDB54EEE1761110600324281 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +343,7 @@
 				BD53FDD51760E68F0037BD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
